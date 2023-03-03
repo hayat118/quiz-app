@@ -18,8 +18,6 @@ class Quiz extends React.Component {
   }
 
   componentDidMount() {
-    console.log(localStorage);
-
     // index update
 
     var currentQuestionIndex = JSON.parse(
