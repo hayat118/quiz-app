@@ -237,12 +237,18 @@ span {
 @media screen and (max-width: 768px) {
   select {
     width: 50%;
+    margin: 1.2rem 0;
   }
 
   body {
     padding: 20px;
   }
-  .box {
-    padding-top: 0;
+
+  .start-box {
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
