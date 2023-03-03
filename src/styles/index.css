@@ -133,6 +133,7 @@ table {
 /*  */
 /*  */
 body {
+  padding: 0.8rem;
   background-color: antiquewhite;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -220,7 +221,13 @@ span {
   padding: 20px;
   background-color: #e7ac5e;
   margin: 20px auto;
-  width: 35%;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  flex-direction: column;
 }
 .btn {
   display: flex;
@@ -243,12 +250,25 @@ span {
   body {
     padding: 20px;
   }
+  .box {
+    padding: 0;
+    height: 85vh;
+  }
 
   .start-box {
     width: 75%;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .score-box {
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
