@@ -44,6 +44,7 @@ class Start extends React.Component {
         <div className="box">
           <section className="start-box">
             <h1>Quiz App</h1>
+            <hr />
             <div>
               <label className="label" htmlFor="category">
                 Choose Category :

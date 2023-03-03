@@ -132,11 +132,16 @@ table {
 /*  */
 /*  */
 /*  */
+body {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 h1 {
   text-align: center;
   padding: 10px 0;
-  background-color: aquamarine;
+
+  font-size: 2rem;
 }
 a {
   text-decoration: none;
@@ -148,43 +153,55 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 6rem;
 }
 .start-box {
   border: 1px solid black;
   width: 50%;
-  background-color: antiquewhite;
+  background-color: rgb(217, 231, 156);
 }
 label {
   margin: 10px;
+  color: darkgreen;
 }
 select {
   margin: 10px;
 }
 .start {
-  background-color: rgb(139, 173, 87);
+  background-color: rgb(20, 146, 20);
   padding: 10px 20px;
   margin-top: 40px;
   margin-bottom: 20px;
   display: inline-block;
-  color: red;
+  color: antiquewhite;
+  border-radius: 0.2rem;
 }
 /* quiz */
+.score-top {
+  font-size: 1.5rem;
+  color: rgb(15 40 0);
+  padding: 0.8rem;
+}
+span {
+  color: rgb(129, 57, 5);
+}
 
 .next {
-  background-color: greenyellow;
+  background-color: rgb(20, 146, 20);
   padding: 10px 20px;
   margin-top: 40px;
   display: inline-block;
   border-radius: 20px;
+  color: antiquewhite;
 }
 .question {
   text-align: center;
   padding: 20px 10px;
-  background-color: aqua;
+  background-color: #e5b981;
+  font-size: 1.2rem;
 }
 .answer {
-  border: 1px solid black;
+  border: 1px solid #0000002b;
   text-align: center;
   padding: 20px;
   background-color: bisque;
@@ -201,11 +218,31 @@ select {
 .score-box {
   border: 1px solid darkcyan;
   padding: 20px;
-  background-color: antiquewhite;
+  background-color: #e7ac5e;
   margin: 20px auto;
-  width: 250px;
+  width: 35%;
 }
 .btn {
   display: flex;
   justify-content: center;
+}
+.btn a {
+  color: rgb(20, 146, 20);
+  padding: 10px;
+}
+
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 768px) {
+  select {
+    width: 50%;
+  }
+
+  body {
+    padding: 20px;
+  }
+  .box {
+    padding-top: 0;
+  }
 }
